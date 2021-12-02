@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/master.css">
+    <title>Charmaine's Portfolio</title>
+</head>
+
+<body>
+    <section class="wrapper dis-grid">
+        <div class="bg">
+            <div class="circle_green"></div>
+            <div class="circle_blue"></div>
+            <div class="circle_purple"></div>
+        </div>
+        <div class="promo_a pad-v15 dis-flex flex-column pad-v10">
+            <div class="header">
+                <h1 class="show-desk pad-b5">Hi Welcome To My Portfolio</h1>
+                <p class="show-desk">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, consequuntur.</p>
+            </div>
+            <div class="btn_wapper">
+                <button class="btn btn_about dis-flex flex-row / mar-h20 pad-h5 / btn_active" id="btn1">
+                    <div class="btn_icon btn_icon_1 / mar-l5">
+                        <svg class="dis-none" xmlns="http://www.w3.org/2000/svg" width="30" height="50"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M17.554 12l-6 6h-3.979l3.093-3h-10.668v-6h10.668l-3.093-3h3.979l6 6zm.446-6h-3.979l6 6-6 6h3.979l6-6-6-6z" />
+                        </svg>
+                    </div>
+                    <p class="btn_text">Know More About Me</p>
+                </button>
+                <button class="btn btn_experience dis-flex flex-row / mar-h20 pad-h5 / opc-5" id="btn2">
+                    <div class="btn_icon btn_icon_2 / mar-l5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" viewBox="0 0 24 24">
+                            <path
+                                d="M17.554 12l-6 6h-3.979l3.093-3h-10.668v-6h10.668l-3.093-3h3.979l6 6zm.446-6h-3.979l6 6-6 6h3.979l6-6-6-6z" />
+                        </svg>
+                    </div>
+                    <p class="btn_text">Education &amp; Experience</p>
+                </button>
+                <button class="btn btn_skills dis-flex flex-row / mar-h20 pad-h5 / opc-5" id="btn3">
+                    <div class="btn_icon btn_icon_3 / mar-l5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" viewBox="0 0 24 24">
+                            <path
+                                d="M17.554 12l-6 6h-3.979l3.093-3h-10.668v-6h10.668l-3.093-3h3.979l6 6zm.446-6h-3.979l6 6-6 6h3.979l6-6-6-6z" />
+                        </svg>
+                    </div>
+                    <p class="btn_text">Skills &amp; Certification</p>
+                </button>
+                <button class="btn btn_web dis-flex flex-row / mar-h20 pad-h5 / opc-5" id="btn4">
+                    <div class="btn_icon btn_icon_4 / mar-l5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" viewBox="0 0 24 24">
+                            <path
+                                d="M17.554 12l-6 6h-3.979l3.093-3h-10.668v-6h10.668l-3.093-3h3.979l6 6zm.446-6h-3.979l6 6-6 6h3.979l6-6-6-6z" />
+                        </svg>
+                    </div>
+                    <p class="btn_text">Front-end Development</p>
+                </button>
+                <button class="btn btn_design dis-flex flex-row / mar-h20 pad-h5 / opc-5" id="btn5">
+                    <div class="btn_icon btn_icon_5 / mar-l5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" viewBox="0 0 24 24">
+                            <path
+                                d="M17.554 12l-6 6h-3.979l3.093-3h-10.668v-6h10.668l-3.093-3h3.979l6 6zm.446-6h-3.979l6 6-6 6h3.979l6-6-6-6z" />
+                        </svg>
+                    </div>
+                    <p class="btn_text">Design</p>
+                </button>
+            </div>
+        </div>
+
+        <section class="promo_b dis-flex flex-column pad-v10 mar-h20">
+            <div class="content-a mar-h20">
+                <div class="intro_wrapper / dis-grid">
+                    <div class="intro_text">
+                        <h3 class="category">Hi I am Charmaine</h3>
+                        <p class="pad-r20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt esse autem
+                            amet nisi, porro
+                            adipisci, debitis maxime obcaecati magni vitae quasi nostrum blanditiis sequi incidunt! Sed
+                            obcaecati dicta necessitatibus similique.</p>
+                    </div>
+                    <div class="img_wrapper">
+                        <img src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638102841/portfolio2_jwonm9.jpg"
+                            data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638102841/portfolio2_jwonm9.jpg"
+                            alt="" width="300px">
+                    </div>
+                </div>
+                <div class="contact_me">
+                    <h3 class="category mar-b20">Contact Me</h3>
+                    <form class="message_me dis-grid">
+                        <div class="field_wrapper name_field_wrapper">
+                            <input class="name mar-b10" required>
+                            <label><span>Name</span></label>
+                        </div>
+                        <div class="field_wrapper email_field_wrapper mar-t20">
+                            <input class="email mar-b10" required>
+                            <label><span>Telephone / Email</span></label>
+                        </div>
+                        <div class="field_wrapper msg_field_wrapper mar-t20">
+                            <input class="msg mar-b10" required>
+                            <label><span>Your Message Here!</span></label>
+                        </div>
+                        <input class="submit_btn mar-t10" type="submit">
+                    </form>
+                    <div class="content_info dis-flex mar-h20">
+                        <p class="dis-flex phone"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z" />
+                            </svg><a class="mar-l10" href="tel:95096312">+852-95096312</a></p>
+                        <p class="dis-flex email"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z" />
+                            </svg><a class="mar-l10" href="mailto:charmaine.hym@gmail.com">charmaine.hym@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-b mar-h20 pad-l20 dis-none">
+                <div class="category_wrapper">
+                    <h3 class="category">Education</h3>
+                    <div class="listwrapper">
+                        <p class="bold pad-t5 title">Hong Kong Shue Yan University</p>
+                        <p class="date">Sep 2017 - Aug 2021</p>
+                        <ul>
+                            <li>Bachelor of Art (Hons) in Journalism and Communication</li>
+                        </ul>
+                    </div>
+                    <div class="listwrapper">
+                        <p class="bold pad-t15 title">Lung Kong World Federation School Limited LWF Secondary School</p>
+                        <p class="date">Sep 2012 - Aug 2017</p>
+                        <ul>
+                            <li>Graduated</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="category_wrapper mar-t15">
+                    <h3 class="category">Work Experience</h3>
+                    <div class="listwrapper">
+                        <p class="bold pad-t5 title">[FT] Lane Crawford</p>
+                        <p class="date">Jun 2021 - Current</p>
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="listwrapper">
+                        <p class="bold pad-t15 title">[PT] Multi Media Designer, Rosy Sky Banquets &amp; Consultatuins
+                            Co.Ltd.
+                        </p>
+                        <p class="date">Sep 2020 - Jun 2021</p>
+                        <ul>
+                            <li>Building and maintaining two Websites (UIUX & Wordpress)</li>
+                            <li>Building Shopify</li>
+                            <li>Organizing Events (e.g PayPal Christmas Party, PayPal Kids Party, etc)</li>
+                            <li>Online Marketing (SEO, SEM, FB, Landing Page, Google analytics, etc)</li>
+                            <li>Videos editing</li>
+                            <li>Designing different materials</li>
+                        </ul>
+                    </div>
+                    <div class="listwrapper">
+                        <p class="bold pad-t15 title">[Internship &amp; PT] Public Relations & Marketing, Journesis
+                            Limited
+                        </p>
+                        <p class="date">Jul 2020 - Jun 2021</p>
+                        <ul>
+                            <li>Managing social media accounts (Facebook, Instagram, website)</li>
+                            <li>Building shopify for client</li>
+                            <li>Designing Website and apps (UIUX)</li>
+                            <li>Designing different materials</li>
+                            <li>Providing acticles</li>
+                        </ul>
+                    </div>
+                    <div class="listwrapper">
+                        <p class="bold pad-t15 title">[PT] Clerk, Mapletree Investment Pte Ltd (Festival Walk)</p>
+                        <p class="date">Mar 2020 - Sep2020</p>
+                        <ul>
+                            <li>Preparing report and Data entry</li>
+                            <li>Handling vendor invoice</li>
+                            <li>Performing general administrative duties to IT department</li>
+                        </ul>
+                    </div>
+                    <div class="listwrapper">
+                        <p class="bold pad-t15 title">[PT] Tutor Teacher, Inspired Learning</p>
+                        <p class="date">Sep 2019 - Jan 2020</p>
+                        <ul>
+                            <li>Providing academic assistance to primary student</li>
+                        </ul>
+                    </div>
+                    <div class="listwrapper">
+                        <p class="bold pad-t15 title">[PT] Tutor Teacher, Seed Educational Charitable Foundation</p>
+                        <p class="date">Mar 2019 - Apr 2019</p>
+                        <ul>
+                            <li>Providing academic assistance to primary student</li>
+                        </ul>
+                    </div>
+                    <div class="listwrapper">
+                        <p class="bold pad-t15 title">[PT] Journalist, Oriental Daily News</p>
+                        <p class="date">Oct 2018 - Nov 2018</p>
+                        <ul>
+                            <li>Preparing press release on financial and economic aspect, including phone interview,
+                                translates, data searching
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content-c mar-h20 dis-none">
+                <div class="category_wrapper">
+                    <h3 class="category">Certification</h3>
+                    <div class="listwrapper">
+                        <p class="bold pad-t5 title">Adobe Certified Expert (ACE)</p>
+                        <p class="date">Apr 2019</p>
+                    </div>
+                    <div class="listwrapper">
+                        <p class="bold pad-t15 title">HKDSE</p>
+                        <p class="date">May 2017</p>
+                    </div>
+                </div>
+                <div class="category_wrapper mar-t15">
+                    <h3 class="category">Skills</h3>
+                </div>
+                <div class="skills_wrapper dis-grid pad-t5">
+                    <div class="skills_box dis-flex">
+                        <img class="skills_icon"
+                            src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638108224/Untitled-1_ed6hsz.png"
+                            data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638108224/Untitled-1_ed6hsz.png"
+                            alt="">
+                        <p class="bold skills_text">HTML</p>
+                    </div>
+                    <div class="skills_box dis-flex">
+                        <img class="skills_icon"
+                            src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638108439/css_siosnk.png"
+                            data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638108439/css_siosnk.png"
+                            alt="">
+                        <p class="bold skills_text">CSS</p>
+                    </div>
+                    <div class="skills_box dis-flex">
+                        <img class="skills_icon"
+                            src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638108730/js_omwqza.png"
+                            data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638108730/js_omwqza.png"
+                            alt="">
+                        <p class="bold skills_text">Javascipt</p>
+                    </div>
+                    <div class="skills_box dis-flex">
+                        <img class="skills_icon"
+                            src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638109212/jquery_djdv0i.png"
+                            data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638109212/jquery_djdv0i.png"
+                            alt="">
+                        <p class="bold skills_text">Jquery</p>
+                    </div>
+                    <div class="skills_box dis-flex">
+                        <img class="skills_icon"
+                            src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638109312/bootstrap_qpyld4.png"
+                            data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638109312/bootstrap_qpyld4.png"
+                            alt="">
+                        <p class="bold skills_text">Bootstrap</p>
+                    </div>
+                    <div class="skills_box dis-flex">
+                        <img class="skills_icon"
+                            src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638109417/wordpress_tlxsrl.png"
+                            data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638109417/wordpress_tlxsrl.png"
+                            alt="">
+                        <p class="bold skills_text">Wordpress</p>
+                    </div>
+                    <div class="skills_box dis-flex">
+                        <img class="skills_icon"
+                            src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638109503/shopify_mntv86.png"
+                            data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638109503/shopify_mntv86.png"
+                            alt="">
+                        <p class="bold skills_text">Shopify</p>
+                    </div>
+                    <div class="skills_box dis-flex">
+                        <img class="skills_icon"
+                            src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638109568/ps_lh0jyy.png"
+                            data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638109568/ps_lh0jyy.png"
+                            alt="">
+                        <p class="bold skills_text">Photoshop</p>
+                    </div>
+                    <div class="skills_box dis-flex">
+                        <img class="skills_icon"
+                            src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638109676/ai_axsgm5.png"
+                            data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638109676/ai_axsgm5.png"
+                            alt="">
+                        <p class="bold skills_text">Illustrator (AI)</p>
+                    </div>
+                    <div class="skills_box dis-flex">
+                        <img class="skills_icon"
+                            src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638109782/priemere_c0xn83.png"
+                            data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638109782/priemere_c0xn83.png"
+                            alt="">
+                        <p class="bold skills_text">Premiere</p>
+                    </div>
+                    <div class="skills_box dis-flex">
+                        <img class="skills_icon"
+                            src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638109872/xd_bdgtql.png"
+                            data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638109872/xd_bdgtql.png"
+                            alt="">
+                        <p class="bold skills_text">Adobe XD</p>
+                    </div>
+                    <div class="skills_box dis-flex">
+                        <img class="skills_icon"
+                            src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638109958/lightroom_pw6rhh.png"
+                            data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638109958/lightroom_pw6rhh.png"
+                            alt="">
+                        <p class="bold skills_text">Lightroom</p>
+                    </div>
+                    <div class="skills_box dis-flex">
+                        <img class="skills_icon"
+                            src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638110195/microsoft_cpyrsu.png"
+                            data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638110195/microsoft_cpyrsu.png"
+                            alt="">
+                        <p class="bold skills_text">Mircosoft</p>
+                    </div>
+                    <div class="skills_box dis-flex">
+                        <img class="skills_icon"
+                            src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638110272/GA_xuicpb.png"
+                            data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638110272/GA_xuicpb.png"
+                            alt="">
+                        <p class="bold skills_text">Google Analytics</p>
+                    </div>
+                    <div class="skills_box dis-flex">
+                        <img class="skills_icon"
+                            src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638110334/ads_ki6qdn.png"
+                            data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638110334/ads_ki6qdn.png"
+                            alt="">
+                        <p class="bold skills_text">Google Ads</p>
+                    </div>
+                    <div class="skills_box dis-flex">
+                        <img class="skills_icon"
+                            src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638110449/Search_Console_khf3gj.png"
+                            data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638110449/Search_Console_khf3gj.png"
+                            alt="">
+                        <p class="bold skills_text">Search Console</p>
+                    </div>
+
+                    <div class="skills_box dis-flex">
+                        <img class="skills_icon"
+                            src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638110031/hotjar_w3pjwn.png"
+                            data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638110031/hotjar_w3pjwn.png"
+                            alt="">
+                        <p class="bold skills_text">Hotjar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-d mar-h20 dis-none"></div>
+            <div class="content-e mar-h20 dis-none"></div>
+        </section>
+    </section>
+</body>
+
+<script src="/script.js"></script>
+
+</html>
